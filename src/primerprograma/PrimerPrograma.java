@@ -19,10 +19,14 @@ public class PrimerPrograma {
     
     public static void main(String[] args) throws IOException {
         
-        String nombre;
+        String nombre, apellido;
         System.out.println("Introduzca su nombre: ");
         nombre = entrada.readLine();
         System.out.println("Su nombre es "+nombre);
+        System.out.println("------------------");
+        System.out.println("Introduzca su apellido: ");
+        apellido = entrada.readLine();
+        System.out.println("Su apellido es "+apellido);
         System.out.println("------------------");
     }
     
