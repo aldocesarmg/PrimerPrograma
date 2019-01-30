@@ -19,7 +19,7 @@ public class PrimerPrograma {
     
     public static void main(String[] args) throws IOException {
         
-        String nombre, apellido, nomCompleto;
+        String nombre, apellido, nomCompleto, dir;
         System.out.println("Introduzca su nombre: ");
         nombre = entrada.readLine();
         System.out.println("Su nombre es "+nombre);
@@ -31,6 +31,9 @@ public class PrimerPrograma {
         
         nomCompleto = nombre + " " + apellido;
         System.out.println("Tu nombre completo es "+nomCompleto);
+        
+        dir = entrada.readLine();
+        System.out.println("Tu direccion es "+dir);
     }
     
 }
